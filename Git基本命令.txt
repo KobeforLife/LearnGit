@@ -1,0 +1,16 @@
+本地：
+git init			初始化仓库，将当前的目录作为仓库
+git add			将文件加入缓存区
+git commit -m“注释”	提交至仓库
+git status			查看当前状态
+git log			查看日志
+git log --pretty=oneline	更推荐的
+git reset --hard 提交编号	回退操作
+git branch			查看分支
+git branch 分支名		创建分支
+git checkout 分支名	切换分支
+git merge 被合并分支	合并分支
+远程：
+git clone 网址		从网上克隆到本地
+git push			提交到线上
+git pull			拉取线上仓库
